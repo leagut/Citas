@@ -6,4 +6,6 @@ body{
 	color: rgb(28, 28, 51);
 	border-color: rgb(255, 255, 255);
 	border-radius: 5px;
+	min-width: 320px;
+	overflow-x: scroll;
 }
