@@ -1,11 +1,33 @@
 body{
 	background-color: rgb(22, 189, 189);
+	display: flex;
 }
 
 .table-main{
 	color: rgb(28, 28, 51);
 	border-color: rgb(255, 255, 255);
 	border-radius: 5px;
+	
+}
+
+.tablon{
 	min-width: 320px;
 	overflow-x: scroll;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ht{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 400px;
+	overflow-x: scroll;
+	border: 3px solid rgb(212, 15, 252);
+}
+
+.getcita{
+	border: 1px snow solid;
 }

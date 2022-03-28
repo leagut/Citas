@@ -18,9 +18,10 @@
 <head>
 	<title>Editar Alumno</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="./estilos/editar.css">
 </head>
 <body>
-	<center>
+	<center class="edit">
 		<h3>Editar alumno:</h3>
 		<form method="POST" action="editarProceso.php">
 			<table>
